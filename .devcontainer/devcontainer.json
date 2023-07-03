@@ -5,7 +5,7 @@
   },
   "waitFor": "onCreateCommand",
   "updateContentCommand": "bundle install",
-  "postCreateCommand": "",
+  "postCreateCommand": "rails db:migrate db:seed",
   "postAttachCommand": {
     "server": "rails server"
   },
