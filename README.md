@@ -20,7 +20,7 @@ This endpoint retrieves all the movies in the database and returns them in JSON 
 
 ### 2. `GET /movies/recommendations?user_id=<user_id>`
 
-This endpoint generates a list of movie recommendations for a given user. It uses a basic recommendation engine which takes the user's favorite movies as input and generates recommendations based on those favorites. The response is a JSON array of recommended movie objects.
+This endpoint generates a list of movie recommendations for a given user. It uses a basic recommendation engine that takes the user's favorite movies as input and generates recommendations based on those favorites. The response is a JSON array of recommended movie objects.
 
 ### 3. `GET /movies/user_rented_movies?user_id=<user_id>`
 
@@ -36,9 +36,9 @@ If successful, it reduces the number of `available_copies` of the movie by 1 and
 
 1. **Forking the Repository**: Start by forking this repository to your own GitHub account.
 2. **Suggesting changes**: Review the existing code and create Pull Requests (PR) with your proposed changes and explanations, based on the following aspects:
-   -- **Bad functioning**: Identify any issues (bugs, inefficiencies, etc.).
-   -- **Refactoring**: If necessary, refactor parts of the code to improve its quality and maintainability. Be sure to explain your reasoning in your PR.
-   -- **Rethinking the Business Logic**: Feel free to reevaluate the current business logic and assumptions that were previously made. If you have an alternative solution that makes more sense, or would improve the application, please propose it.
+   - **Bad functioning**: Identify any issues (bugs, inefficiencies, etc.).
+   - **Refactoring**: If necessary, refactor parts of the code to improve its quality and maintainability. Be sure to explain your reasoning in your PR.
+   - **Rethinking the Business Logic**: Feel free to reevaluate the current business logic and assumptions that were previously made. If you have an alternative solution that makes more sense, or would improve the application, please propose it.
 3. **Documentation**: Update this README file or add a new document to explain your changes, your decision-making process, and any trade-offs you made. Include this in a PR.
 
 Remember, the main goal of this challenge is not to write a fully-functional application, but rather to demonstrate your coding, problem-solving, and communication skills. We value clean, efficient, and well-documented code, and we appreciate creative and thoughtful solutions to problems.
