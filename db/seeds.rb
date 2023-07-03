@@ -46,5 +46,5 @@ end
   
 User.all.each do |user|
   movies = Movie.order(Arel.sql('RANDOM()')).limit(rand(1..5))
-  user.movies << movies
+  user.favorites << movies
 end
