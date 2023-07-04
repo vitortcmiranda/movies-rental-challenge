@@ -39,12 +39,11 @@ If successful, it reduces the number of `available_copies` of the movie by 1 and
    - **Bad functioning**: Identify any issues (bugs, inefficiencies, etc.).
    - **Refactoring**: If necessary, refactor parts of the code to improve its quality and maintainability. Be sure to explain your reasoning in your PR.
    - **Rethinking the Business Logic**: Feel free to reevaluate the current business logic and assumptions that were previously made. If you have an alternative solution that makes more sense, or would improve the application, please propose it.
-3. **Documentation**: Update this README file or add a new document to explain your changes, your decision-making process, and any trade-offs you made. Include this in a PR.
-
-Remember, the main goal of this challenge is not to write a fully-functional application, but rather to demonstrate your coding, problem-solving, and communication skills. We value clean, efficient, and well-documented code, and we appreciate creative and thoughtful solutions to problems.
-
 
 ### Important Note
+
+Remember, the main goal of this challenge is not to write a fully-functional application, but rather to demonstrate your coding, problem-solving, and communication skills. We value clean and efficient code, and we appreciate creative and thoughtful solutions to problems.
+
 The code has dozens of potential improvements, and we don't expect you to work on all of them. Feel free to prioritize the ones you consider most important to address in **about 3 hours of work**.
 
-Happy Coding!
+_**Happy Coding!**_
