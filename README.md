@@ -34,7 +34,7 @@ If successful, it reduces the number of `available_copies` of the movie by 1 and
 
 ## Your Task
 
-1. **Forking the Repository**: Start by forking this repository to your own GitHub account.
+1. **Cloning the repository**: Start by cloning this repository to your local machine, then push it to your own GitHub account. Please, do not fork the repository, otherwise, other candidates will be able to see your solution.
 2. **Suggesting changes**: Review the existing code and create Pull Requests (PR) with your proposed changes and explanations, based on the following aspects:
    - **Bad functioning**: Identify any issues (bugs, inefficiencies, etc.).
    - **Refactoring**: If necessary, refactor parts of the code to improve its quality and maintainability. Be sure to explain your reasoning in your PR.
