@@ -8,7 +8,7 @@ This application simulates part of a movie rental system, where users can rent m
 
 Your task is to review the existing code, open Pull Requests to suggest any improvements, enhancements, or bug fixes, and reevaluate the existing business logic to propose your own improvements. While the application is functional as it stands, there is always room for improvement!
 
-This project is configured for [Github Codespaces](https://github.com/codespaces), which allows you to work on the project in a fully configured, remote development environment. Feel free to use this feature and create a new Codespace for your forked repository to make the task execution easier.
+This project is configured for [Github Codespaces](https://github.com/codespaces), which allows you to work on the project in a fully configured, remote development environment. Feel free to use this feature and create a new Codespace for your repository to make the task execution easier.
 
 The project also includes a seed file that pre-populates the database with users and movies, making it easier for you to test your changes.
 
