@@ -34,7 +34,7 @@ If successful, it reduces the number of `available_copies` of the movie by 1 and
 
 ## Your Task
 
-1. **Cloning the repository**: Start by cloning this repository to your local machine, then push it to your own GitHub account. Please, do not fork the repository, otherwise, other candidates will be able to see your solution.
+1. **Cloning the repository**: Start by [cloning](https://docs.github.com/en/repositories/creating-and-managing-repositories/duplicating-a-repository) this repository to your local machine, then push it to your own GitHub account. Please, do not fork the repository, otherwise, other candidates will be able to see your solution.
 2. **Suggesting changes**: Review the existing code and create Pull Requests (PR) with your proposed changes and explanations, based on the following aspects:
    - **Bad functioning**: Identify any issues (bugs, inefficiencies, etc.).
    - **Refactoring**: If necessary, refactor parts of the code to improve its quality and maintainability. Be sure to explain your reasoning in your PR.
@@ -42,5 +42,9 @@ If successful, it reduces the number of `available_copies` of the movie by 1 and
 3. **Documentation**: Update this README file or add a new document to explain your changes, your decision-making process, and any trade-offs you made. Include this in a PR.
 
 Remember, the main goal of this challenge is not to write a fully-functional application, but rather to demonstrate your coding, problem-solving, and communication skills. We value clean, efficient, and well-documented code, and we appreciate creative and thoughtful solutions to problems.
+
+
+### Important Note
+The code has dozens of potential improvements, and we don't expect you to work on all of them. Feel free to prioritize the ones you consider most important to address in **about 3 hours of work**.
 
 Happy Coding!
