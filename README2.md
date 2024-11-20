@@ -46,12 +46,23 @@ docker-compose up
 ```
 
 ```bash
+docker-compose run web bundle install 
+```
+
+```bash
 docker-compose run web rails db:migrate
 ```
 
 ```bash
 docker-compose run web rails db:seed
 ```
+
+Optionally: running tests
+```bash
+docker-compose run web rails test:integration
+```
+
+
 
 <h2 id="routes">📍 API Endpoints</h2>
 
@@ -70,14 +81,17 @@ List of available resources
 
 <h2 id="changes">📍 Request changes</h2>
 
-Heres for futures features and changes
+Heres some tasks i think should be prioritize in order to not have bigger problems
 ​
 | change               | description                                          
 |----------------------|-----------------------------------------------------
-| <kbd>GET /movies</kbd>     | This endpoint retrieves all the movies in the database and returns them in JSON format. Each movie object includes its `id`, `title`, `genre`, `rating`, and the number of `available_copies`.
-| <kbd>GET /movies/recommendations?user_id=<user_id></kbd>     | This endpoint generates a list of movie recommendations for a given user. It uses a basic recommendation engine that takes the user's favorite movies as input and generates recommendations based on those favorites. The response is a JSON array of recommended movie objects.
-| <kbd>GET /movies/user_rented_movies?user_id=<user_id></kbd>     | This endpoint retrieves all the movies that a user has currently rented. The user is identified by the `user_id` parameter in the URL. The response is a JSON array of movie objects that the user has rented.
-| <kbd>POST /movies/<movie_id>/rent?user_id=<user_id></kbd>     | This endpoint allows a user to rent a movie. The user is identified by the `user_id` parameter and the movie by the `id` parameter in the URL. If successful, it reduces the number of `available_copies` of the movie by 1 and adds the movie to the user's `rented` movies. The response is a JSON object of the rented movie.
+| <kbd>1-Integration tests</kbd>     | Create integration tests so the future changes can be made more safely.
+| <kbd>2-Unit tests</kbd>     | Create unit tests for the same purpose, we cant break things in order to improve them.
+| <kbd>3-Error Handling</kbd>     | Added error handling, transaction management, and refactored code for better readability and maintainability.
+| <kbd>4-Transactional</kbd>     | The movie rent resource could be done in a transactional way to avoid a movie available copies being 0, being by Optimistic or Pessimistic lock.
+| <kbd>5-Separation of concerns</kbd>     | I think the movies controller should be split into movie controller and user controller.
+| <kbd>6-Swagger</kbd>     | The application root could be a page of swagger, i think swagger its good for apis to have the resources displayed and kind of documented.
+| <kbd>7-Model validations</kbd>     | The models dont have validations
 
 <h3>Database representation</h3>
 
