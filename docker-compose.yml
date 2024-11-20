@@ -8,3 +8,15 @@ services:
       - .:/app
     ports:
       - "3000:3000"
+    depends_on:
+      - selenium
+
+  selenium:
+    image: selenium/standalone-chrome
+    environment:
+      - SE_VNC_NO_PASSWORD=true
+      - VNC_NO_PASSWORD=true
+      - SCREEN_WIDTH=1500 
+      - SCREEN_HEIGHT=900
+    ports:
+      - "4444:4444"

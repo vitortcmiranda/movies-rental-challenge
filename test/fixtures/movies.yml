@@ -1,0 +1,5 @@
+one:
+  title: "MyString"
+  genre: "MyText"
+  rating: 1.12
+  available_copies: 5 # Adjust as per your schema
